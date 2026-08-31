@@ -64,7 +64,7 @@ const GMap = ({ driverLocation, pickupLocation, destination }) => {
       : null);
 
   return (
-    <APIProvider apiKey={"AIzaSyAcxNN3SElOML5iv50Aoh37_27Elgxg-mY"}>
+    <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
       {mapCenter ? (
         <Map
           style={{
