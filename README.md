@@ -5,7 +5,7 @@ A full-stack ride-sharing platform built with the MERN stack, featuring real-tim
 ## ✨ Key Features
 
 - **Real-Time Location Tracking:** Uses Socket.IO to transmit live location updates between clients and the backend.
-- **Nearby Driver Discovery:** Identifies available drivers within a 5 km radius of a ride request.
+- **Nearby Driver Discovery:** Identifies available drivers within a 10 km radius of a ride request.
 - **Atomic Ride Acceptance:** Uses Redis atomic locking to prevent multiple drivers from successfully accepting the same ride concurrently.
 - **Live Messaging:** Supports real-time communication using Socket.IO.
 - **Location Autocomplete:** Integrates the Google Places API to provide pickup and destination suggestions.
